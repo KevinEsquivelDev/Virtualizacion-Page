@@ -161,10 +161,11 @@
 </ul>
 <p>Estas son las tres principales ventajas de la virtualización.
 <center class="p-4">
+    <center>
+        <a href="#"><img src="https://www.rjconcepcion.com/wp-content/uploads/2021/05/virtualizacion-300x192.png" alt="virtualizacion"></a>
+    </center>
           <h4 class="fst-italic">Mas informacion</h4>
-        <div class="container">
-            <!-- (p>lorem)*20 (código a usar si tienes instalada la extensión emmet)-->
-        </div>
+
 
         <center>
 

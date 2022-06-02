@@ -120,6 +120,36 @@
         <a href="#"><img src="https://www.redhat.com/cms/managed-files/how-virtualization-works-400x217.png" alt="virtualizacion"></a>
     </center>
 
+    <p>La virtualización sirve principalmente para compartir los recursos de un servidor y optimizar el uso de sus procesadores. Asimismo, su puesta en marcha aumentará la calidad y agilidad de la infraestructura informática y mejorará en todo momento los tiempos de respuesta del servidor.
+
+        Se podría indicar que es buena opción para las empresas ya que reduce el hardware aportando un importante ahorro de costes, proporciona encapsulación, aislamiento y sobre todo independencia.</p>
+
+
+    <h1>Cómo funciona la virtualización</h1>
+
+    <p>Para una mejor comprensión del funcionamiento de la virtualización vamos a compararla con algo de la vida cotidiana:<p>
+
+       <p> Podríamos imaginarnos que tenemos un hotel muy grande, con muchos metros en un único espacio. Para un mayor aprovechamiento de este, queremos dividirlo en pequeñas habitaciones individuales, diferentes e independientes entre sí, pero formando un único hotel. Si lo aplicamos
+        a nuestro ámbito, el hotel haría referencia a un servidor físico, en el que haciendo uso de la virtualización lo dividimos a nivel lógico en varias máquinas virtuales (habitaciones), funcionando simultáneamente e independientes entre sí.</p>
+
+        <p>Para construir cada una de las habitaciones, tendríamos que repartir la cantidad de metros existentes, los recursos que tenemos, etcétera. Lo mismo ocurriría en el caso del servidor, tendríamos que asignar a cada máquina virtual los recursos del hardware (memoria RAM,
+            procesadores, espacio…) e instalarle el sistema operativo que se va a utilizar en cada una de ellas (Windows, Linux…). Es importante destacar que todos estos recursos serán tomados de la máquina física principal o servidor sobre el que se ejecuta todo.</p>
+
+    <p>Hay dos elementos fundamentales a la hora de explicar cómo funciona la virtualización:</p>
+
+    <h2>1. Máquina virtual</h2>
+        <p>Es el corazón de la virtualización. Se crea completamente por software y puede ejecutar sistemas operativos y aplicaciones. Además, se encuentra respaldada por los recursos de un servidor físico.
+
+    <center>
+        <a href="#"><img src="https://dc722jrlp2zu8.cloudfront.net/media/cache/27/58/2758e356ffc700f325a5e7f03a17a70c.webp" alt="virtualizacion"></a>
+    </center>
+
+       <h2>2. Hipervisor</h2>
+       <p> Es el que se encarga de crear una capa de virtualización. Asigna dinámicamente a cada máquina virtual los recursos que necesita, para que independientemente del sistema operativo que utiliza, crea que el hardware físico del servidor principal está a su disposición.
+           Es de vital importancia que funcione correctamente para obtener de las máquinas virtuales el resultado esperado, pero para que esto ocurra debemos asegurarnos siempre de que tanto el almacenamiento como los componentes de la red funcionan bien.
+
+        <p>Cuando instalamos cualquier sistema operativo en una de las máquinas virtuales, este va a funcionar con el mismo patrón y método que en una máquina física (licencias, actualizaciones…) por lo que también es susceptible de ser atacado. Esto nos lleva a pensar que es muy
+        importante, en caso de que la máquina no haya sido creada para probar ataques en ella, que se utilicen herramientas de seguridad (antivirus, cifrado, actualización continua…) para evitar poner en peligro nuestra privacidad.</p>
     <div class="p-4 text-center">
         <h4 class="fst-italic">Mas información</h4>
         <ol class="list-unstyled">

@@ -22,8 +22,8 @@
 
 </head>
 
-<body style="background-color: #E8F8F5;">
-<nav class="navbar navbar-expand-lg bg-p-8 mb-7 text-white" style="background-color: #002752;">
+<body>
+<nav class="navbar navbar-expand-lg bg-p-4 mb-7 text-white" style="background-color: #1D26E4;">
     <!--Logo de navbar-->
     <a></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
