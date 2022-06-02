@@ -90,6 +90,8 @@
       h1, h2, h3, h4, h5, h6, li {
           font-family: Verdana, Arial, Helvetica, sans-serif;
       }
+
+
     </style>
 
     <!-- Custom styles for this template -->
@@ -106,7 +108,7 @@
             <h1 class="display-4 fst-italic">¿QUÉ ES VIRTUALIZACIÓN</h1>
         </center>
 </main>
-    <body>
+    <section>
 
     <p>La tecnología que permite crear servicios de TI útiles, con recursos que están tradicionalmente limitados al hardware  Gracias a que distribuye las funciones de una máquina física entre varios usuarios o entornos,
         posibilita el uso de toda la capacidad de la máquina.</p>
@@ -150,6 +152,10 @@
 
         <p>Cuando instalamos cualquier sistema operativo en una de las máquinas virtuales, este va a funcionar con el mismo patrón y método que en una máquina física (licencias, actualizaciones…) por lo que también es susceptible de ser atacado. Esto nos lleva a pensar que es muy
         importante, en caso de que la máquina no haya sido creada para probar ataques en ella, que se utilicen herramientas de seguridad (antivirus, cifrado, actualización continua…) para evitar poner en peligro nuestra privacidad.</p>
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wtBY4Dhe8d4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
     <div class="p-4 text-center">
         <h4 class="fst-italic">Mas información</h4>
         <ol class="list-unstyled">
@@ -159,7 +165,45 @@
             <li><a href="https://openwebinars.net/blog/virtualizacion-que-es-para-que-sirve-y-ventajas/">Virtualización: Qué es, para qué sirve y ventajas</a></li>
         </ol>
     </div>
+</section>
 
-</body>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    <ul class="nav nav-pills ml-auto flex justify-end">
+    <div class="card" style="width: 18rem;">
+        <img src="https://blog.conzultek.com/hs-fs/hubfs/virtualizaci%C3%B3n%20empresas.jpg?width=800&name=virtualizaci%C3%B3n%20empresas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">¿Quieres más información?</p>
+            <a href="https://blog.conzultek.com/productividad/conoce-los-tipos-de-virtualizacion-y-sus-funciones" class="btn btn-primary">Haz Click Acá</a>
+
+        </div>
+    </div>
+    </ul>
+    </button>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <ul class="nav nav-pills ml-auto flex justify-end">
+            <div class="card" style="width: 23rem;">
+                <img src="https://pandorafms.com/blog/wp-content/uploads/2021/01/581-Virtualizaci%C3%B3n-qu%C3%A9-es-y-algunos-ejemplos-de-para-qu%C3%A9-se-utiliza-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">La mayoria de...</p>
+                    <a href="https://pandorafms.com/blog/es/virtualizacion/" class="btn btn-primary">Haz Click Acá</a>
+
+                </div>
+            </div>
+        </ul>
+    </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <ul class="nav nav-pills ml-auto flex justify-end">
+            <div class="card" style="width: 18rem;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/L2wlRkkOIDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </ul>
+    </button>
+    </ul>
 </html>
 @endsection
