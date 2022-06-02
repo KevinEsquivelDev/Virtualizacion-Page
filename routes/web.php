@@ -13,9 +13,9 @@ use App\Http\Controllers\IndexController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', [IndexController::class,'index']);
+Route::get('/ventajas', [IndexController::class,'ventajas']);
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
-
-Route::get('/home', [IndexController::class,'index']);

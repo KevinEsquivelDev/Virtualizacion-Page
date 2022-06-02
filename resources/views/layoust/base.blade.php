@@ -23,7 +23,7 @@
 </head>
 
 <body style="background-color: #E8F8F5;">
-<nav class="navbar navbar-expand-lg navbar-light bg-p-3 mb-2 text-white" style="background-color: #002752;">
+<nav class="navbar navbar-expand-lg bg-p-8 mb-7 text-white" style="background-color: #002752;">
     <!--Logo de navbar-->
     <a class="navbar-brand" href="{{url('/menu')}}"><img src="https://umg.edu.gt/assets/umg.png" alt="" width="80" class="rounded-circle"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,16 +31,13 @@
     </button>
     <ul class="nav nav-pills ml-auto flex justify-end">
         <li class="nav-item">
-            <a class="btn btn-outline-primary offset-1 " id="pills-home-tab"  href="{{url('/')}}" role="tab" aria-controls="pills-home" aria-selected="true">Inicio</a>
+            <a class="btn btn-outline-primary offset-3 " id="pills-home-tab"  href="{{url('/')}}" role="tab" aria-controls="pills-home" aria-selected="true">Inicio</a>
         </li>
         <li class="nav-item">
-            <a class="btn btn-outline-primary offset-3 " id="pills-profile-tab"  href="{{url('/menuI')}}" role="tab" aria-controls="pills-profile" aria-selected="false">¿Qué es?</a>
+            <a class="btn btn-outline-primary offset-3 " id="pills-profile-tab"  href="{{url('/welcome')}}" role="tab" aria-controls="pills-profile" aria-selected="false">¿Qué es?</a>
         </li>
         <li class="nav-item">
-            <a class="btn btn-outline-primary offset-4 " id="pills-contact-tab" href="{{url('/menuNota')}}"  role="tab" aria-controls="pills-contact" aria-selected="false">Ventajas</a>
-        </li>
-        <li class="nav-item">
-            <a class="btn btn-outline-primary offset-9 " id="pills-contact-tab" href="{{url('/menuCurso')}}"  role="tab" aria-controls="pills-contact" aria-selected="false">Cursos</a>
+            <a class="btn btn-outline-primary offset-3 " id="pills-contact-tab" href="{{url('/ventajas')}}"  role="tab" aria-controls="pills-contact" aria-selected="false">Ventajas</a>
         </li>
     </ul>
 

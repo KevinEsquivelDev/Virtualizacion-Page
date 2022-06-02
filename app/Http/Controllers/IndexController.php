@@ -10,5 +10,10 @@ class IndexController extends Controller
         return view('pagina.home',);
     }
 
+    public function ventajas(){
+        return view('ventajas',);
+    }
+
+
 
 }

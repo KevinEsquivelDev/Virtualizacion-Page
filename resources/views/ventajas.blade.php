@@ -5,6 +5,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reset-fonts-grids.css">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -82,6 +83,13 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+    p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    h1, h2, h3, h4, h5, h6, li {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
     </style>
 
 
@@ -97,31 +105,23 @@
 <main class="container">
   <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 fst-italic">virtualización</h1>
+      <h1 class="display-4 fst-italic">VENTAJAS</h1>
     </div>
   </div>
 
-
-  <div class="row g-5">
-    <div class="col-md-8">
-
-
-      <article class="blog-post">
-      <img src="1.PNG" class="img-fluid" >
-        <h2 class="blog-post-title mb-1">Que es virtualización</h2>
-
-        <h3>Ventajas de la virtualización</h3>
-        <h4>Reducción de costes</h4>
+        <h1>3 Ventajas Principales</h1>
+    <br>
+        <h3>1. Reducción de costes</h3>
         <p>Sin duda una de las principales ventajas del uso de la virtualización es el ahorro de dinero que supone para las empresas su implementación. La virtualización puede suponer para el ahorro en el área de TI de tu empresa de hasta un 20 %.</p>
 
-        <p>Esto se debe a una serie de motivos:</p>
+        <h4>Esto se debe a una serie de motivos:</h4>
         <ul>
-          <li>La virtualización aprovecha al máximo la capacidad de los servidores y reduce su tiempo de inactividad. De este modo podrás usar los servidores a máxima capacidad y apagar los que no estés usando.</li>
-          <li>La virtualización te permitirá ahorrar una gran cantidad de energía, ya que necesitarás un número mucho menor de servidores físicos.</li>
+            <li>La virtualización aprovecha al máximo la capacidad de los servidores y reduce su tiempo de inactividad. De este modo podrás usar los servidores a máxima capacidad y apagar los que no estés usando.</li>
+            <li>La virtualización te permitirá ahorrar una gran cantidad de energía, ya que necesitarás un número mucho menor de servidores físicos.</li>
           <li>Al haber menos servidores físicos, también ahorrarás en costes de mantenimiento de equipo. </li>
         </ul>
-
-        <h4>Mejor seguridad</h4>
+<br>
+        <h4>2. Mejor seguridad</h4>
         <p>La seguridad es otra de las grandes ventajas de la virtualización de servidores. En este apartado las ventajas son:</p>
 
         <ul>
@@ -146,8 +146,8 @@
 <p>Usando de manera conjunta estas imágenes y las copias de seguridad que antes mencionamos, podrás devolver tu sistema a un estado estable y recuperar el 100 % de los datos que tengas almacenados.</p>
 
 
-
-<h4>Trabajadores más eficientes</h4>
+<br>
+<h4>3. Trabajadores más eficientes</h4>
 
 <p>La virtualización también ofrece ventajas para tus trabajadores que, en definitiva, también son ventajas para la empresa. </p>
 <ul>
