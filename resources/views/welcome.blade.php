@@ -84,6 +84,12 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      p {
+          font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      h1, h2, h3, h4, h5, h6, li {
+          font-family: Verdana, Arial, Helvetica, sans-serif;
+      }
     </style>
 
     <!-- Custom styles for this template -->
@@ -91,17 +97,16 @@
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
 </head>
-<body>
+
 
 
 
 <main class="container">
-    <div class="p-0 p-md-3 mb-2 text-white rounded bg-noir">
-        <div class="col-md-6 px-2">
-            <h1 class="display-4 fst-italic">¿QUÉ ES LA VIRTUALIZACIÓN?</h1>
-        </div>
-    </div>
-
+    <center class="p-1 p-md-7 mb-4 text-white rounded bg-dark text-center">
+            <h1 class="display-4 fst-italic">¿QUÉ ES VIRTUALIZACIÓN</h1>
+        </center>
+</main>
+    <body>
 
     <p>La tecnología que permite crear servicios de TI útiles, con recursos que están tradicionalmente limitados al hardware  Gracias a que distribuye las funciones de una máquina física entre varios usuarios o entornos,
         posibilita el uso de toda la capacidad de la máquina.</p>
@@ -111,10 +116,12 @@
         hace muchas décadas para permitir que varios usuarios accedieran simultáneamente a computadoras que realizaban procesamiento por lotes. El procesamiento por lotes era un tipo de informática popular en el ámbito
         empresarial que ejecutaba tareas rutinarias miles de veces y muy rápidamente (como las nóminas).
     </p>
+    <center>
+        <a href="#"><img src="https://www.redhat.com/cms/managed-files/how-virtualization-works-400x217.png" alt="virtualizacion"></a>
+    </center>
 
-
-    <div class="p-4">
-        <h4 class="fst-italic">Mas informacion</h4>
+    <div class="p-4 text-center">
+        <h4 class="fst-italic">Mas información</h4>
         <ol class="list-unstyled">
             <li><a href="https://www.ionos.es/digitalguide/servidores/configuracion/virtualizacion/">Virtualizacion: el alma de la nube</a></li>
             <li><a href="https://rcg-comunicaciones.es/ventajas-e-inconvenientes-la-virtualizacion/">las principales ventajas e inconvenientes de la virtualizacion de servidores</a></li>
@@ -122,7 +129,7 @@
             <li><a href="https://openwebinars.net/blog/virtualizacion-que-es-para-que-sirve-y-ventajas/">Virtualización: Qué es, para qué sirve y ventajas</a></li>
         </ol>
     </div>
-</main>
+
 </body>
 </html>
 @endsection

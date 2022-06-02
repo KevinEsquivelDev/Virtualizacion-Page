@@ -1,11 +1,15 @@
-<!doctype html>
-<html lang="es">
+@extends('layoust.base')
+
+@section('title', 'Login')
+
+@section('content')
 <head>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/reset-fonts-grids.css">
+    <link rel = ”stylesheet” href = ”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -93,23 +97,24 @@
     </style>
 
 
+
+
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
 </head>
-<body>
+
 
 
 
 <main class="container">
-  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 fst-italic">VENTAJAS</h1>
-    </div>
-  </div>
+    <center class="p-1 p-md-7 mb-4 text-white rounded bg-dark text-center">
+        <h1 class="display-4 fst-italic">VENTAJAS</h1>
+    </center>
+</main>
+<body>
 
-        <h1>3 Ventajas Principales</h1>
     <br>
         <h3>1. Reducción de costes</h3>
         <p>Sin duda una de las principales ventajas del uso de la virtualización es el ahorro de dinero que supone para las empresas su implementación. La virtualización puede suponer para el ahorro en el área de TI de tu empresa de hasta un 20 %.</p>
@@ -155,18 +160,21 @@
 <li>La virtualización permite una administración más sencilla de aspectos como la instalación del software, realizar actualizaciones o mantener la seguridad por lo que tus empleados del área de sistemas verán facilitada su labor.</li>
 </ul>
 <p>Estas son las tres principales ventajas de la virtualización.
-<div class="p-4">
+<center class="p-4">
           <h4 class="fst-italic">Mas informacion</h4>
+        <div class="container">
+            <!-- (p>lorem)*20 (código a usar si tienes instalada la extensión emmet)-->
+        </div>
+
+        <center>
+
           <ol class="list-unstyled">
             <li><a href="https://www.ionos.es/digitalguide/servidores/configuracion/virtualizacion/">Virtualizacion: el alma de la nube</a></li>
             <li><a href="https://rcg-comunicaciones.es/ventajas-e-inconvenientes-la-virtualizacion/">las principales ventajas e inconvenientes de la virtualizacion de servidores</a></li>
             <li><a href="https://www.jmgvirtualconsulting.com/vmware-vsphere/ventajas-desventajas-virtualizacion-servidores-vmware/">Ventajas y desventajas de la virtualización de servidores VMware</a></li>
             <li><a href="https://openwebinars.net/blog/virtualizacion-que-es-para-que-sirve-y-ventajas/">Virtualización: Qué es, para qué sirve y ventajas</a></li>
           </ol>
-        </div>
-</main>
-
-
-
+        </center>
 </body>
 </html>
+@endsection

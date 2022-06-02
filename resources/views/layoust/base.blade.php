@@ -25,7 +25,7 @@
 <body style="background-color: #E8F8F5;">
 <nav class="navbar navbar-expand-lg bg-p-8 mb-7 text-white" style="background-color: #002752;">
     <!--Logo de navbar-->
-    <a class="navbar-brand" href="{{url('/menu')}}"><img src="https://umg.edu.gt/assets/umg.png" alt="" width="80" class="rounded-circle"></a>
+    <a></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
