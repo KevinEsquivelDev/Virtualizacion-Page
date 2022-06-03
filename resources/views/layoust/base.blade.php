@@ -75,7 +75,7 @@
 
 <body>
 <nav>
-    <div id="navbar navbar-expand-lg bg-p-4 mb-7 text-white" style="background-color: #1D26E4";>
+    <div id="navbar navbar-expand-lg bg-p-4 mb-7 text-white" style="background-color: #131212";>
         <ul class="nav">
             <li><a href="">Información</a>
                 <ul>
