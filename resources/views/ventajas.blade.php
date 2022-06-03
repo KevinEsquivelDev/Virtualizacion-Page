@@ -126,6 +126,12 @@
           <li>Al haber menos servidores físicos, también ahorrarás en costes de mantenimiento de equipo. </li>
         </ul>
 <br>
+
+    <center>
+    <a href="#"><img src="https://www.novatrans.es/wp-content/uploads/ventajas-del-transporte-por-carretera.png" alt="virtualizacion"></a>
+    </center>
+
+
         <h4>2. Mejor seguridad</h4>
         <p>La seguridad es otra de las grandes ventajas de la virtualización de servidores. En este apartado las ventajas son:</p>
 
@@ -150,6 +156,9 @@
 
 <p>Usando de manera conjunta estas imágenes y las copias de seguridad que antes mencionamos, podrás devolver tu sistema a un estado estable y recuperar el 100 % de los datos que tengas almacenados.</p>
 
+    <center>
+        <a href="#"><img src="https://iauditoria.com/wp-content/uploads/2021/02/portada-1024x538.jpg" alt="virtualizacion"></a>
+    </center>
 
 <br>
 <h4>3. Trabajadores más eficientes</h4>

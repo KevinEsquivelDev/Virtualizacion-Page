@@ -14,6 +14,9 @@ class IndexController extends Controller
         return view('ventajas',);
     }
 
+    public function desventajas(){
+        return view('desventajas',);
+    }
 
 
 }

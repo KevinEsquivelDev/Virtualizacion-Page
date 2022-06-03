@@ -16,6 +16,10 @@ use App\Http\Controllers\IndexController;
 Route::get('/', [IndexController::class,'index']);
 Route::get('/ventajas', [IndexController::class,'ventajas']);
 
-Route::get('/welcome', function () {
+Route::get('/desventajas', [IndexController::class,'index']);
+Route::get('/desventajas', [IndexController::class,'desventajas']);
+
+
+Route::get('/info', function () {
     return view('welcome');
 });
