@@ -19,32 +19,75 @@
 
     <script src="https://use.fontawesome.com/releases/vVERSION/js/all.js" data-mutate-approach="sync"></script>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
 
+        * {
+            margin:0px;
+            padding:0px;
+        }
+
+        #header {
+            margin:auto;
+            width:500px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        ul, ol {
+            list-style:none;
+        }
+
+        .nav > li {
+            float:left;
+        }
+
+        .nav li a {
+            background-color:#000;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+        }
+
+        .nav li a:hover {
+            background-color:#434343;
+        }
+
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+
+        .nav li:hover > ul {
+            display:block;
+        }
+
+        .nav li ul li {
+            position:relative;
+        }
+
+        .nav li ul li ul {
+            right:-140px;
+            top:0px;
+        }
+    </style>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg bg-p-4 mb-7 text-white" style="background-color: #1D26E4;">
-    <!--Logo de navbar-->
-
-    <a></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <ul class="nav nav-pills ml-auto flex justify-end">
-        <li class="nav-item">
-            <a class="btn btn-outline-primary offset-3 " id="pills-home-tab"  href="{{url('/')}}" role="tab" aria-controls="pills-home" aria-selected="true">Inicio</a>
-        </li>
-        <li class="nav-item">
-            <a class="btn btn-outline-primary offset-3 " id="pills-profile-tab"  href="{{url('/info')}}" role="tab" aria-controls="pills-profile" aria-selected="false">¿Qué es?</a>
-        </li>
-        <li class="nav-item">
-            <a class="btn btn-outline-primary offset-3 " id="pills-contact-tab" href="{{url('/ventajas')}}"  role="tab" aria-controls="pills-contact" aria-selected="false">Ventajas</a>
-        </li>
-        <li class="nav-item">
-            <a class="btn btn-outline-primary offset-3 " id="pills-contact-tab" href="{{url('/desventajas')}}"  role="tab" aria-controls="pills-contact" aria-selected="false">Desventajas</a>
-        </li>
-
-    </ul>
+<nav>
+    <div id="navbar navbar-expand-lg bg-p-4 mb-7 text-white" style="background-color: #1D26E4";>
+        <ul class="nav">
+            <li><a href="">Información</a>
+                <ul>
+                    <li><a href="{{url('/')}}">Inicio</a></li>
+                    <li><a href="{{url('/info')}}">¿Qué es?</a></li>
+                    <li><a href="{{url('/ventajas')}}">Ventajas</a></li>
+                    <li><a href="{{url('/desventajas')}}">Desventajas</a></li>
+                </ul>
+            </li>
+            <li><a href="http://www.microven.net/departamento-tecnico-informatico/virtualizacion-de-servidores">Contacto</a></li>
+        </ul>
+    </div>
 
 </nav>
 <div class="container">
