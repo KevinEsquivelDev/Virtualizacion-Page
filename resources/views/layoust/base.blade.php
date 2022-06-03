@@ -25,6 +25,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-p-4 mb-7 text-white" style="background-color: #1D26E4;">
     <!--Logo de navbar-->
+
     <a></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,11 +35,15 @@
             <a class="btn btn-outline-primary offset-3 " id="pills-home-tab"  href="{{url('/')}}" role="tab" aria-controls="pills-home" aria-selected="true">Inicio</a>
         </li>
         <li class="nav-item">
-            <a class="btn btn-outline-primary offset-3 " id="pills-profile-tab"  href="{{url('/welcome')}}" role="tab" aria-controls="pills-profile" aria-selected="false">¿Qué es?</a>
+            <a class="btn btn-outline-primary offset-3 " id="pills-profile-tab"  href="{{url('/info')}}" role="tab" aria-controls="pills-profile" aria-selected="false">¿Qué es?</a>
         </li>
         <li class="nav-item">
             <a class="btn btn-outline-primary offset-3 " id="pills-contact-tab" href="{{url('/ventajas')}}"  role="tab" aria-controls="pills-contact" aria-selected="false">Ventajas</a>
         </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-primary offset-3 " id="pills-contact-tab" href="{{url('/desventajas')}}"  role="tab" aria-controls="pills-contact" aria-selected="false">Desventajas</a>
+        </li>
+
     </ul>
 
 </nav>

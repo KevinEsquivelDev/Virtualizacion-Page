@@ -105,7 +105,7 @@
 
 <main class="container">
     <center class="p-1 p-md-7 mb-4 text-white rounded bg-dark text-center">
-            <h1 class="display-4 fst-italic">¿QUÉ ES VIRTUALIZACIÓN</h1>
+            <h1 class="display-4 fst-italic">¿QUÉ ES VIRTUALIZACIÓN?</h1>
         </center>
 </main>
     <section>

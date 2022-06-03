@@ -113,6 +113,7 @@
         <h1 class="display-4 fst-italic">VENTAJAS</h1>
     </center>
 </main>
+
 <body>
 
     <br>
@@ -125,6 +126,7 @@
             <li>La virtualización te permitirá ahorrar una gran cantidad de energía, ya que necesitarás un número mucho menor de servidores físicos.</li>
           <li>Al haber menos servidores físicos, también ahorrarás en costes de mantenimiento de equipo. </li>
         </ul>
+
 <br>
 
     <center>
@@ -169,6 +171,7 @@
 <li>La virtualización permite una administración más sencilla de aspectos como la instalación del software, realizar actualizaciones o mantener la seguridad por lo que tus empleados del área de sistemas verán facilitada su labor.</li>
 </ul>
 <p>Estas son las tres principales ventajas de la virtualización.
+
 <center class="p-4">
     <center>
         <a href="#"><img src="https://www.rjconcepcion.com/wp-content/uploads/2021/05/virtualizacion-300x192.png" alt="virtualizacion"></a>
@@ -185,6 +188,7 @@
             <li><a href="https://openwebinars.net/blog/virtualizacion-que-es-para-que-sirve-y-ventajas/">Virtualización: Qué es, para qué sirve y ventajas</a></li>
           </ol>
         </center>
+
 </body>
 </html>
 @endsection
