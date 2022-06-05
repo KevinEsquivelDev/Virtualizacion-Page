@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePelisTable extends Migration
+class CreateArticulosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,13 @@ class CreatePelisTable extends Migration
      */
     public function up()
     {
-        Schema::create('pelis', function (Blueprint $table) {
+        Schema::create('articulos', function (Blueprint $table) {
             $table->engine = "InnoDB";
             $table->bigIncrements("id");
 
             $table->string('nombre')->unique();
-            $table->string('clasificacionEdad')->unique();
-            $table->rememberToken();
-            $table->timestamps();
+            $table->string('precio')->unique();
+            $table->string('fabricante')->unique();
         });
     }
 
@@ -31,6 +30,6 @@ class CreatePelisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pelis');
+        Schema::dropIfExists('articulos');
     }
 }
